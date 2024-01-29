@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 // import "./globals.css";
-import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/css/bootstrap.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -19,7 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script
+          async
+          src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ></script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>

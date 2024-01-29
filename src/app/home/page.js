@@ -592,7 +592,7 @@ export default function Page() {
         </Slider>
       </div>
       <div className="justify-content-center d-flex mt-2">
-        <button className={styles.button}>Let's Connect</button>
+        <button className={styles.button}>Let&apos;s Connect</button>
       </div>
       <div className={`row ${styles.introduceBanner}`}>
         <div className="position-relative">
@@ -602,12 +602,12 @@ export default function Page() {
           <div className="col-lg-6 text-center p-5">
             {" "}
             What can we help you achieve?
-            <button className={styles.button}>Let's Connect</button>
+            <button className={styles.button}>Let&apos;s Connect</button>
           </div>
           <div className="col-lg-6 text-center p-5">
             {" "}
             Where will your career take you?
-            <button className={styles.button}>Let's Find Out</button>
+            <button className={styles.button}>Let&apos;s Find Out</button>
           </div>
         </div>
       </div>
