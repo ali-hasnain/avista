@@ -4,10 +4,11 @@ import styles from "./page.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-var $ = require("jquery");
 if (typeof window !== "undefined") {
-  window.$ = window.jQuery = require("jquery");
+  var $ = require("jquery");
+  window.$ = window.jQuery = $;
 }
+
 import Slider from "react-slick";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
